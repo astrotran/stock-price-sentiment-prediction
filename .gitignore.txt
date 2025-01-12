@@ -1,7 +1,13 @@
 venv/
 __pycache__/
 .DS_Store
-data/
-models/
+
+# Ignore large files but keep the folders
+data/*
+!data/.gitkeep
+
+models/*
+!models/.gitkeep
+
 *.csv
 *.log
